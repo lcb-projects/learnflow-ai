@@ -114,8 +114,19 @@ learnflow-ai/
 ## Quick Start
 
 ```bash
-# Coming soon
+# Clone and set up environment
+git clone https://github.com/Lucface/learnflow-ai.git
+cd learnflow-ai
+
+# Create Python environment
+uv venv
+source .venv/bin/activate
+
+# Install dependencies (when available)
+uv pip install -e .
 ```
+
+> Implementation in progress. See [Goals & Roadmap](docs/GOALS.md) for MVP timeline.
 
 ---
 
